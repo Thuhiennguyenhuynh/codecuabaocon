@@ -1,0 +1,27 @@
+
+/* all product */
+   .allproduct-swiper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Khoảng cách giữa các sản phẩm */
+  }
+  
+  .allproduct-swiper .card {
+    flex: 1 1 24%; /* 4 sản phẩm mỗi hàng, chiếm 24% mỗi sản phẩm */
+    box-sizing: border-box; /* Đảm bảo padding và border không ảnh hưởng đến kích thước */
+  }
+  
+  /* Responsive cho màn hình nhỏ hơn */
+
+  .detail-swiper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Khoảng cách giữa các sản phẩm */
+  }
+  
+  .detail-swiper .card {
+    flex: 1 1 24%; /* 4 sản phẩm mỗi hàng, chiếm 24% mỗi sản phẩm */
+    box-sizing: border-box; /* Đảm bảo padding và border không ảnh hưởng đến kích thước */
+  }
+  
+  /* Responsive cho màn hình nhỏ hơn */
